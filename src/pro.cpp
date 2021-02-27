@@ -45,6 +45,8 @@
  *                        100,000,000 nodes = tree height of 26
  * 
  *                        26 is ~20% more than 21
+ * 
+ * C. ** See answer in the header of `spell.cpp` **
  * */
 
 #include "common.h"
