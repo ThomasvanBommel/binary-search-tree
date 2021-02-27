@@ -71,17 +71,9 @@ void runPRO(Tree<int> & tree){
     // Get user input
     while(cin >> in, in != -1){
 
-        // Check number is valid
-        if(in > 0 && in < 49979687){
-
-            // Inform the user if the number they entered is prime or not
-            string response = tree.find(in) ? "is" : "is NOT";
-            cout << "You entered " << in << " which " << response << " a prime number" << endl;
-        }else{
-
-            // Invalid input
-            cout << "Invalid number, valid options are (49979687 < x > 0)" << endl;
-        }
+        // Inform the user if the number they entered is prime or not
+        string response = tree.find(in) ? "is" : "is NOT";
+        cout << "You entered " << in << " which " << response << " a prime number" << endl;
     }
 }
 
